@@ -1,13 +1,61 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+#wire{
+    background-color: black;
+    height: 100px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box{
+    background-color: black;
+    height: 250px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.light{
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#redselected{
+    background-color: red;
+    box-shadow: 0px 0px 90px 20px white ;
+}
+#yellowselected{
+    background-color: yellow;
+    box-shadow: 0px 0px 90px 20px white ;
+}
+#greenselected{
+    background-color: green;
+    box-shadow: 0px 0px 90px 20px white ;
+}
